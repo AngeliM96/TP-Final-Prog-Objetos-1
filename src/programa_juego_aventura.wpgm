@@ -1,0 +1,15 @@
+import wollok.game.*
+import nivel_bloques.*
+
+program juego_aventura 
+{
+
+	game.title("El juego de la Manaos de Uva")
+	game.height(16)
+	game.width(15)
+	game.boardGround("fondoStart.png")
+	nivelBloques.gameStart()
+	
+	game.start()
+}	
+
